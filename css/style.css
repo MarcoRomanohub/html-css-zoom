@@ -17,9 +17,11 @@ main{
   height: calc(100vh - 100px);
   width: 100vw;
 }
-
+.active{
+  color: rgb(5, 217, 5);
+}
 .container{
-  max-width: 98%;
+  /* max-width: 98%; */
   width: 90%;
   margin: 100px auto;
   height: 80%;
@@ -41,6 +43,7 @@ main{
   height: 100%;
   margin: 3px;
   position: relative;
+  display: flex;
 }
 .nome-utente{
   height: 15px;
@@ -58,5 +61,62 @@ main{
 footer{
   height: 100px;
   /* background-color: #222222; */
-  background-color: blue;
+}
+footer .bar{
+  height: 50px;
+  background-color: #222222;
+  color: white;
+  justify-content: space-between;
+}
+.option{
+  
+}
+.option .mic, .video{
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  margin: 5px;
+  padding-top: 2px;
+  position: relative;
+}
+.mic,.video,.icon div{
+  font-size: .8rem;
+}
+.bar i{
+  font-size: 1.3rem;
+margin-bottom: 4px;
+}
+.option span{
+  position: absolute;
+  right: 0;
+  bottom: 40%;
+}
+.bar span i{
+  font-size: .7rem;
+}
+nav{
+  width: 800px;
+  justify-content: center;
+}
+.icon{
+  text-align: center;
+  margin: 5px;
+  padding-top: 2px;
+}
+.icon span i{
+  /* line-height: 35px; */
+}
+.end-meeting div{
+  width: 80px;
+  height: 50px;
+  background-color: #4A4A4A;
+  line-height: 50px;
+  font-size: .7rem;
+  padding: 0 10px;
+  color: red;
+  justify-content: flex-end;
+}
+.end-meeting{
+  width: 180px;
+  justify-content: flex-end;
 }
