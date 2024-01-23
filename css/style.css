@@ -6,3 +6,57 @@
 img{
   max-width: 100%;
 }
+.d-flex{
+  display: flex;
+}
+body{
+  background-color: black;
+}
+main{
+  overflow: hidden;
+  height: calc(100vh - 100px);
+  width: 100vw;
+}
+
+.container{
+  max-width: 98%;
+  width: 90%;
+  margin: 100px auto;
+  height: 80%;
+  /* background-color: red; */
+}
+.gruppo{
+  /* width: 100%;
+  height: 100%; */
+}
+.row{
+  width: 100%;
+  height: calc(93% / 5);
+  margin-top: 8px;
+}
+.utente{
+  /* width: calc(98% / 6); */
+  /* background-color: yellow; */
+  width: calc(98% / 7);
+  height: 100%;
+  margin: 3px;
+  position: relative;
+}
+.nome-utente{
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.596);
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  font-size: .7rem;
+  color: white;
+  padding: 2px;
+}
+.nome-utente span{
+  
+}
+footer{
+  height: 100px;
+  /* background-color: #222222; */
+  background-color: blue;
+}
